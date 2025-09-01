@@ -1,15 +1,10 @@
 import { NavItem } from "@/shared/types/types";
-import { HomePath, TicketsPath } from "./path";
-import { LucideLibrary, LucideBook} from "lucide-react";
+import { TicketsPath } from "./path";
+import { LucideBook} from "lucide-react";
 
 
 
 export const navItems: NavItem[] = [
-    {
-        title: 'All Tickets',
-        icon: <LucideLibrary />,
-        href: HomePath()
-    },
     {
         title: 'My Tickets',
         icon: <LucideBook />,
