@@ -36,7 +36,7 @@ export default function RootLayout({
             disableTransitionOnChange
         >
           <NavBar />
-        <main>
+        <main className="overflow-y-auto overflow-x-hidden py-24 px-8 flex-1 flex flex-col min-h-screen bg-secondary/20">
             {children}
         </main>
         </ThemeProvider>
